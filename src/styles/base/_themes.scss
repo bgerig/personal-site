@@ -1,0 +1,40 @@
+.light-theme {
+	transition: background-color 0.3s ease;
+	.theme-heading {
+		transition: color 0.3s ease;
+		@apply text-light-theme-heading leading-none;
+	}
+	.theme-text {
+		transition: color 0.3s ease;
+		@apply text-light-theme-text;
+	}
+	.theme-link {
+		background: linear-gradient(
+				180deg,
+				$color-link-bg-light 50%,
+				$color-link-bg-light 0
+			)
+			0 0.75em/3px 0.5em repeat-x;
+	}
+}
+
+.dark-theme {
+	transition: background-color 0.3s ease-in-out;
+	background-color: theme("colors.dark");
+	.theme-heading {
+		transition: color 0.3s ease;
+		@apply text-dark-theme-heading leading-none;
+	}
+	.theme-text {
+		transition: color 0.3s ease;
+		@apply text-dark-theme-text;
+	}
+	.theme-link {
+		background: linear-gradient(
+				180deg,
+				$color-link-bg-dark 50%,
+				$color-link-bg-dark 0
+			)
+			0 0.75em/3px 0.5em repeat-x;
+	}
+}

@@ -1,0 +1,16 @@
+.logo {
+	max-width: 75px;
+}
+.personal-image {
+	max-width: 150px;
+	@screen md {
+		max-width: 300px;
+	}
+}
+.social {
+	&__item {
+		display: inline-block;
+		width: 35px;
+		padding: 7px;
+	}
+}

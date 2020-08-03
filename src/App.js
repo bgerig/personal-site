@@ -17,23 +17,23 @@ const App = () => {
 				<div className="intro theme-text copy">
 					<h1 className="mb-4 theme-heading heading">Hi, I&apos;m Alex <span role="img" aria-label="Hamburger Emoji">✌️</span></h1>
 					<h2 className="mb-4 theme-text subheading">
-						I am a front end software engineer based in Sioux Falls, South Dakota who builds elegant, maintainable, and performant websites with a modern tech stack.
+						I am a front-end engineer based in Sioux Falls, South Dakota. I like to build elegant, maintainable, and performant websites with a modern tech stack.
 					</h2>
 					<img src={alexImage} alt="Alex" className="personal-image rounded-full mb-4 md:float-right md:mb-0 ml-2" />
 					<h2 className="mb-4 theme-text subheading">
 						Say hi at <a className="theme-link" href="mailto:b.gerig@outlook.com">b.gerig@outlook.com</a>
 					</h2>
 					<p className="mb-4 theme-text copy">
-						I currently work at Lawrence & Schiller where I build front-end solutions for small and medium sized clients, including the State of South Dakota.
+						I currently work at <a className="theme-link" href="https://carsforsale.com" target="_blank" rel="noopener">Carsforsale.com</a> where I help implement user interfaces using advanced front-end technologies.
 					</p>
-					<p className="mb-4 theme-text copy">I try to reach for these technologies on a daily basis if possible:</p>
+					<p className="mb-4 theme-text copy">I mostly work with these technologies on a daily basis:</p>
 					<div className="flex mb-4">
 						<div className="w-1/2">
 							<ul className="list-disc">
 								<li>HTML</li>
-								<li>CSS (& Sass)</li>
+								<li>CSS (incl. Sass/LESS)</li>
 								<li>JavaScript (ES6+)</li>
-								<li>PHP</li>
+								<li>C# and ASP.NET</li>
 							</ul>
 						</div>
 						<div className="w-1/2">
@@ -41,7 +41,6 @@ const App = () => {
 								<li>React</li>
 								<li>Git</li>
 								<li>Webpack</li>
-								<li>WordPress</li>
 							</ul>
 						</div>
 					</div>
@@ -60,7 +59,7 @@ const App = () => {
 						</a>
 					</div>
 				</div>
-				<span className="text-xs">Copyright © 2019 Alex Gerig</span>
+				<span className="text-xs">Copyright © {new Date().getFullYear()} Alex Gerig</span>
 			</div>
 		</div>
 	)

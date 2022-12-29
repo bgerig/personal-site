@@ -24,16 +24,15 @@ const App = () => {
 						Say hi at <a className="theme-link" href="mailto:b.gerig@outlook.com">b.gerig@outlook.com</a>
 					</h2>
 					<p className="mb-4 theme-text copy">
-						I currently work at <a className="theme-link" href="https://carsforsale.com" target="_blank" rel="noopener">Carsforsale.com</a> where I help implement user interfaces using advanced front-end technologies.
+						I currently work at <a className="theme-link" href="https://knack.com" target="_blank" rel="noopener">Knack</a> where I help implement user interfaces using advanced front-end technologies.
 					</p>
 					<p className="mb-4 theme-text copy">I mostly work with these technologies on a daily basis:</p>
 					<div className="flex mb-4">
 						<div className="w-1/2">
 							<ul className="list-disc">
-								<li>HTML</li>
-								<li>CSS (incl. Sass/LESS)</li>
+								<li>HTML/CSS</li>
 								<li>JavaScript (ES6+)</li>
-								<li>C# and ASP.NET</li>
+								<li>Vue</li>
 							</ul>
 						</div>
 						<div className="w-1/2">

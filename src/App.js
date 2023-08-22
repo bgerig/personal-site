@@ -30,7 +30,7 @@ const App = () => {
 					<div className="flex mb-4">
 						<div className="w-1/2">
 							<ul className="list-disc">
-								<li>JavaScript and TypeScript</li>
+								<li>JavaScript/TypeScript</li>
 								<li>React</li>
 								<li>Vue</li>
 							</ul>

@@ -17,7 +17,7 @@ const App = () => {
 				<div className="intro theme-text copy">
 					<h1 className="mb-4 theme-heading heading">Hi, I&apos;m Alex <span role="img" aria-label="Hamburger Emoji">✌️</span></h1>
 					<h2 className="mb-4 theme-text subheading">
-						I am a front-end engineer based in Sioux Falls, South Dakota. I like to build elegant, maintainable, and performant websites with a modern tech stack.
+						I am a front-end engineer based in the Raleigh area, North Carolina. I like to build elegant, maintainable, and performant websites with a modern tech stack.
 					</h2>
 					<img src={alexImage} alt="Alex" className="personal-image rounded-full mb-4 md:float-right md:mb-0 ml-2" />
 					<h2 className="mb-4 theme-text subheading">
@@ -30,16 +30,16 @@ const App = () => {
 					<div className="flex mb-4">
 						<div className="w-1/2">
 							<ul className="list-disc">
-								<li>HTML/CSS</li>
-								<li>JavaScript (ES6+)</li>
+								<li>JavaScript and TypeScript</li>
+								<li>React</li>
 								<li>Vue</li>
 							</ul>
 						</div>
 						<div className="w-1/2">
 							<ul className="list-disc">
-								<li>React</li>
 								<li>Git</li>
-								<li>Webpack</li>
+								<li>Vite</li>
+								<li>HTML/CSS</li>
 							</ul>
 						</div>
 					</div>

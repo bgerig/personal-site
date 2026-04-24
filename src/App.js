@@ -24,15 +24,15 @@ const App = () => {
 						Say hi at <a className="theme-link" href="mailto:b.gerig@outlook.com">b.gerig@outlook.com</a>
 					</h2>
 					<p className="mb-4 theme-text copy">
-						I currently work at <a className="theme-link" href="https://knack.com" target="_blank" rel="noopener">Knack</a> where I help implement user interfaces using advanced front-end technologies.
+						I currently work at <a className="theme-link" href="https://liminal.ai" target="_blank" rel="noopener">Liminal</a> where I help implement user interfaces using advanced front-end technologies.
 					</p>
 					<p className="mb-4 theme-text copy">I mostly work with these technologies on a daily basis:</p>
 					<div className="flex mb-4">
 						<div className="w-1/2">
 							<ul className="list-disc">
-								<li>JavaScript/TypeScript</li>
+								<li>TypeScript</li>
 								<li>React</li>
-								<li>Vue</li>
+								<li>Next.js</li>
 							</ul>
 						</div>
 						<div className="w-1/2">
